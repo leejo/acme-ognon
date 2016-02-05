@@ -12,7 +12,7 @@ Acme::Ognon - Suivez l'Académie française à la lettre ... peut-être
 
 =head1 LA VERSION
 
-0.01
+1.00
 
 =head1 LA DESCRIPTION
 
@@ -24,7 +24,7 @@ Le module à deux fonctionne: C<ognon> - pour le suppression de le circumflex,
 et C<oigon> pour l'addition de le circumflex. Mais le suppression et l'addition
 seulement fonctionne de temps en temps
 
-=head1 SYNOPSIS
+=head1 LE SOMMAIRE
 
 	use Acme::Ognon qw/ ognon oignon /;
 
@@ -41,7 +41,7 @@ use vars qw/ @ISA @EXPORT_OK @EXPORT /;
 @ISA       = qw/ Exporter /;
 @EXPORT    = qw/ ognon oignon /;
 
-$Acme::Ognon::VERSION = 0.01;
+$Acme::Ognon::VERSION = 1.00
 
 sub ognon {
 	my ( $text ) = @_;

@@ -10,7 +10,7 @@ Acme::Ognon - Suivez l'Académie française à la lettre ... peut-être
 
 # LA VERSION
 
-0.01
+1.00
 
 # LA DESCRIPTION
 
@@ -18,11 +18,11 @@ Acme::Ognon existe pour à suivre l'Académie française à la lettre ...
 peut-être. Le module supprime tout le circumflex sur le "o" et le "i" de
 temps en temps.
 
-Le module à deux fonctionne: ognon - pour le suppression de le circumflex,
-et oigon pour l'addition de le circumflex. Mais le suppression et l'addition
+Le module à deux fonctionne: `ognon` - pour le suppression de le circumflex,
+et `oigon` pour l'addition de le circumflex. Mais le suppression et l'addition
 seulement fonctionne de temps en temps
 
-# SYNOPSIS
+# LE SOMMAIRE
 
         use Acme::Ognon qw/ ognon oignon /;
 
@@ -44,4 +44,4 @@ le modifier selon les mêmes conditions que Perl lui-même. Si vous souhaitez
 contribuer documentation, fonctionnalités, des corrections de bugs, ou quelque
 chose d'autre, alors s'il vous plaît soulever une demande édition / de traction:
 
-    https://github.com/G3S/business-fixflo
+    https://github.com/leejo/acme-ognon
