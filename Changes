@@ -1,39 +1,4 @@
-Revision history for Business-GoCardless
+Revision history for Acme::Ognon
 
-0.12     2015-10-21
-        - Move github repo to G3S org
-
-0.11     2015-04-02
-        - Documentation clarification regarding which API version this lib
-          is for (as GoCardless are working on Basic v2 BETA and Pro APIs)
-
-0.10     2014-12-01
-        - Documentation and distribution tweaks
-
-0.09     2014-09-17
-        - Document the confirmation of webhooks
-
-0.08     2014-09-16
-        - POD updates
-
-0.07     2014-09-16
-        - Add Webhook support (https://developer.gocardless.com/#webhook-overview)
-
-0.06     2014-09-10
-        - Replace use of TryCatch with Try::Tiny in tests
-
-0.05     2014-09-06
-        - Kwalitee improvements in distribution
-
-0.04     2014-09-06
-        - fix test failures for checking JSON boolean values
-
-0.03     2014-09-04
-        - Correct links in perldoc
-
-0.02     2014-09-04
-        - Remove dependency on Mojo::JSON in a couple of tests
-        - Fix use of undef as an ARRAY in Utils::normalize_params
-
-0.01     2014-09-04
-        - First release
+1.00 2016-02-05
+	- version première

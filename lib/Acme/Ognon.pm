@@ -41,7 +41,7 @@ use vars qw/ @ISA @EXPORT_OK @EXPORT /;
 @ISA       = qw/ Exporter /;
 @EXPORT    = qw/ ognon oignon /;
 
-$Acme::Ognon::VERSION = 1.00
+$Acme::Ognon::VERSION = "1.00";
 
 sub ognon {
 	my ( $text ) = @_;
