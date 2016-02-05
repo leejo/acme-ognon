@@ -2,7 +2,7 @@ package Acme::Ognon;
 
 =encoding utf8
 
-=head1 LE NOM
+=head1 NAME
 
 Acme::Ognon - Suivez l'Académie française à la lettre ... peut-être
 
@@ -12,7 +12,7 @@ Acme::Ognon - Suivez l'Académie française à la lettre ... peut-être
 
 =head1 LA VERSION
 
-1.01
+1.02
 
 =head1 LA DESCRIPTION
 
@@ -41,7 +41,7 @@ use vars qw/ @ISA @EXPORT_OK @EXPORT /;
 @ISA       = qw/ Exporter /;
 @EXPORT    = qw/ ognon oignon /;
 
-$Acme::Ognon::VERSION = "1.01";
+$Acme::Ognon::VERSION = "1.02";
 
 sub ognon {
 	my ( $text ) = @_;
