@@ -7,9 +7,26 @@ use feature qw/ say /;
 use Test::Most;
 use Acme::Ognon qw/ oignon ognon /;
 
+my @oignons;
+
 for ( 1 .. 1000 ) {
-	say "gone: " . ognon( "coût" );
-	say "gone: " . ognon( "coÛt" );
-	say "back: " . oignon( "cout" );
-	say "back: " . oignon( "coUt" );
+	push( @oignons,ognon( "coût" ) );
+	push( @oignons,ognon( "coÛt" ) );
 }
+
+my $removed = grep { /cout/ } @oignons;
+
+ok( $removed,'ognon' );
+
+undef( @oignons );
+
+for ( 1 .. 1000 ) {
+	push( @oignons,oignon( "cout" ) );
+	push( @oignons,oignon( "coUt" ) );
+}
+
+my $added = grep { /coût/ } @oignons;
+
+ok( $added,'oignon' );
+
+done_testing();

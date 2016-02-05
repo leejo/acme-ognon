@@ -10,12 +10,7 @@ WriteMakefile(
     VERSION_FROM     => 'lib/Acme/Ognon.pm',
     AUTHOR           => 'Lee Johnson <leejo@cpan.org>',
     LICENSE          => 'perl',
-    MIN_PERL_VERSION => '5.10.1',
-    PREREQ_PM => {
-    },
-    BUILD_REQUIRES => {
-        'Test::Most'       => 0.31,
-    },
+    MIN_PERL_VERSION => '5.6.2',
     META_MERGE => {
         resources => {
             license    => 'http://dev.perl.org/licenses/',
