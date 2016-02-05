@@ -12,7 +12,7 @@ Acme::Ognon - Suivez l'Académie française à la lettre ... peut-être
 
 =head1 LA VERSION
 
-1.02
+1990
 
 =head1 LA DESCRIPTION
 
@@ -21,7 +21,7 @@ peut-être. Le module supprime tout le circumflex sur le "o" et le "i" de
 temps en temps.
 
 Le module à deux fonctionne: C<ognon> - pour le suppression de le circumflex,
-et C<oigon> pour l'addition de le circumflex. Mais le suppression et l'addition
+et C<oignon> pour l'addition de le circumflex. Mais le suppression et l'addition
 seulement fonctionne de temps en temps
 
 =head1 LE SOMMAIRE
@@ -41,7 +41,7 @@ use vars qw/ @ISA @EXPORT_OK @EXPORT /;
 @ISA       = qw/ Exporter /;
 @EXPORT    = qw/ ognon oignon /;
 
-$Acme::Ognon::VERSION = "1.02";
+$Acme::Ognon::VERSION = "1990";
 
 sub ognon {
 	my ( $text ) = @_;
@@ -68,6 +68,10 @@ sub oignon {
 =head1 MERCI À
 
 Academie Francaise, bien sûr! Hein, bien sur! Je pense...
+
+=head1 PLUS D'INFORMATIONS
+
+L<https://fr.wikipedia.org/wiki/Rectifications_orthographiques_du_fran%C3%A7ais_en_1990>
 
 =head1 L'AUTEUR
 

@@ -1,4 +1,4 @@
-# LE NOM
+# NAME
 
 Acme::Ognon - Suivez l'Académie française à la lettre ... peut-être
 
@@ -10,7 +10,7 @@ Acme::Ognon - Suivez l'Académie française à la lettre ... peut-être
 
 # LA VERSION
 
-1.01
+1990
 
 # LA DESCRIPTION
 
@@ -19,7 +19,7 @@ peut-être. Le module supprime tout le circumflex sur le "o" et le "i" de
 temps en temps.
 
 Le module à deux fonctionne: `ognon` - pour le suppression de le circumflex,
-et `oigon` pour l'addition de le circumflex. Mais le suppression et l'addition
+et `oignon` pour l'addition de le circumflex. Mais le suppression et l'addition
 seulement fonctionne de temps en temps
 
 # LE SOMMAIRE
@@ -32,6 +32,10 @@ seulement fonctionne de temps en temps
 # MERCI À
 
 Academie Francaise, bien sûr! Hein, bien sur! Je pense...
+
+# PLUS D'INFORMATIONS
+
+[https://fr.wikipedia.org/wiki/Rectifications\_orthographiques\_du\_fran%C3%A7ais\_en\_1990](https://fr.wikipedia.org/wiki/Rectifications_orthographiques_du_fran%C3%A7ais_en_1990)
 
 # L'AUTEUR
 
