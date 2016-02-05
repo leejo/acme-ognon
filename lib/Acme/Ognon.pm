@@ -12,12 +12,12 @@ Acme::Ognon - Suivez l'Académie française à la lettre ... peut-être
 
 =head1 LA VERSION
 
-1990
+1990.1
 
 =head1 LA DESCRIPTION
 
 Acme::Ognon existe pour à suivre l'Académie française à la lettre ...
-peut-être. Le module supprime tout le circumflex sur le "o" et le "i" de
+peut-être. Le module supprime tout le circumflex sur le "i" et le "u" de
 temps en temps.
 
 Le module à deux fonctionne: C<ognon> - pour le suppression de le circumflex,
@@ -41,7 +41,7 @@ use vars qw/ @ISA @EXPORT_OK @EXPORT /;
 @ISA       = qw/ Exporter /;
 @EXPORT    = qw/ ognon oignon /;
 
-$Acme::Ognon::VERSION = "1990";
+$Acme::Ognon::VERSION = "1990.1";
 
 sub ognon {
 	my ( $text ) = @_;
