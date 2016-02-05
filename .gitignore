@@ -1,0 +1,16 @@
+/META.yml
+/MYMETA.*
+/blib/
+/inc/
+/pm_to_blib
+/MANIFEST.bak
+/Makefile
+/Makefile.old
+*.old
+*.swp
+~$
+/Business-GoCardless*tar.gz
+t/end_to_end/*.json
+cover_db
+end_to_end.sh
+end_to_end_pro.sh
