@@ -12,7 +12,7 @@ Acme::Ognon - Suivez l'Académie française à la lettre ... peut-être
 
 =head1 LA VERSION
 
-1.00
+1.01
 
 =head1 LA DESCRIPTION
 
@@ -41,7 +41,7 @@ use vars qw/ @ISA @EXPORT_OK @EXPORT /;
 @ISA       = qw/ Exporter /;
 @EXPORT    = qw/ ognon oignon /;
 
-$Acme::Ognon::VERSION = "1.00";
+$Acme::Ognon::VERSION = "1.01";
 
 sub ognon {
 	my ( $text ) = @_;

@@ -10,7 +10,7 @@ Acme::Ognon - Suivez l'Académie française à la lettre ... peut-être
 
 # LA VERSION
 
-1.00
+1.01
 
 # LA DESCRIPTION
 
