@@ -2,15 +2,9 @@
 
 Acme::Ognon - Suivez l'Académie française à la lettre ... peut-être
 
-<div>
-
-    <a href='https://travis-ci.org/leejo/acme-ognon?branch=master'><img src='https://travis-ci.org/leejo/acme-ognon?branch=master' alt='Build Status' /></a>
-    <a href='https://coveralls.io/r/leejo/acme-ognon?branch=master'><img src='https://coveralls.io/repos/leejo/acme-ognon?branch=master' alt='Coverage Status' /></a>
-</div>
-
 # LA VERSION
 
-1990.1
+1990.2
 
 # LA DESCRIPTION
 

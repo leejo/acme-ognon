@@ -6,13 +6,9 @@ package Acme::Ognon;
 
 Acme::Ognon - Suivez l'Académie française à la lettre ... peut-être
 
-=for html
-<a href='https://travis-ci.org/leejo/acme-ognon?branch=master'><img src='https://travis-ci.org/leejo/acme-ognon?branch=master' alt='Build Status' /></a>
-<a href='https://coveralls.io/r/leejo/acme-ognon?branch=master'><img src='https://coveralls.io/repos/leejo/acme-ognon?branch=master' alt='Coverage Status' /></a>
-
 =head1 LA VERSION
 
-1990.1
+1990.2
 
 =head1 LA DESCRIPTION
 
@@ -41,7 +37,7 @@ use vars qw/ @ISA @EXPORT_OK @EXPORT /;
 @ISA       = qw/ Exporter /;
 @EXPORT    = qw/ ognon oignon /;
 
-$Acme::Ognon::VERSION = "1990.1";
+$Acme::Ognon::VERSION = "1990.2";
 
 sub ognon {
 	my ( $text ) = @_;
