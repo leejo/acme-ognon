@@ -1,27 +1,27 @@
 # NAME
 
-Acme::Ognon - Suivez l'Académie française à la lettre ... peut-être
+Acme::Ognon - Suivez l'Académie française à la lettre... peut-être
 
 # LA VERSION
 
-1990.2
+1990.3
 
 # LA DESCRIPTION
 
-Acme::Ognon existe pour à suivre l'Académie française à la lettre ...
-peut-être. Le module supprime tout le circumflex sur le "i" et le "u" de
+Acme::Ognon existe pour suivre l'Académie française à la lettre...
+peut-être. Le module supprime les circonflexes sur les "i" et les "u", de
 temps en temps.
 
-Le module à deux fonctionne: `ognon` - pour le suppression de le circumflex,
-et `oignon` pour l'addition de le circumflex. Mais le suppression et l'addition
-seulement fonctionne de temps en temps
+Le module a deux fonctions: `ognon` - pour la suppression des circonflexes
+et `oignon` pour leur addition. Gardez à l'esprit que la suppression et l'addition
+ne s'effectue que de temps en temps
 
 # LE SOMMAIRE
 
         use Acme::Ognon qw/ ognon oignon /;
 
-        my $peut_etre_sans_circumflex = ognon( 'coût' );
-        my $peut_etre_avec_circumflex = oignon( 'cout' );
+        my $peut_etre_sans_circonflex = ognon( 'coût' );
+        my $peut_etre_avec_circonflex = oignon( 'cout' );
 
 # MERCI À
 
