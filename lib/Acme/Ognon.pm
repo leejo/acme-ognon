@@ -6,26 +6,26 @@ package Acme::Ognon;
 
 Acme::Ognon - Suivez l'Académie française à la lettre... peut-être
 
-=head1 LA VERSION
+=head1 VERSION
 
 1990.3
 
-=head1 LA DESCRIPTION
+=head1 DESCRIPTION
 
 Acme::Ognon existe pour suivre l'Académie française à la lettre...
-peut-être. Le module supprime les circonflexes sur les "i" et les "u", de
-temps en temps.
+peut-être. Le module supprime et ajoute, de temps en temps, des accents
+circonflexes sur les lettres S<« i »> et S<« u »>.
 
-Le module a deux fonctions: C<ognon> - pour la suppression des circonflexes
-et C<oignon> pour leur addition. Gardez à l'esprit que la suppression et l'addition
-ne s'effectue que de temps en temps
+Le module a deux S<fonctions :> C<ognon> pour supprimer des accents 
+circonflexes et C<oignon> pour en ajouter. Gardez à l'esprit que ces 
+opérations ne s'effectuent que de temps en temps.
 
-=head1 LE SOMMAIRE
+=head1 SYNOPSIS
 
-	use Acme::Ognon qw/ ognon oignon /;
+    use Acme::Ognon qw/ ognon oignon /;
 
-	my $peut_etre_sans_circonflex = ognon( 'coût' );
-	my $peut_etre_avec_circonflex = oignon( 'cout' );
+    my $peut_etre_sans_accent_circonflexe = ognon( 'coût' );
+	my $peut_etre_avec_accent_circonflexe = oignon( 'cout' );
 
 =cut
 
@@ -61,26 +61,29 @@ sub oignon {
 	return $text;
 }
 
-=head1 MERCI À
+=head1 REMERCIEMENTS
 
-Academie Francaise, bien sûr! Hein, bien sur! Je pense...
+Merci à l'Académie française, bien S<sûr !> Hein, bien S<sur !> Je pense...
 
-=head1 PLUS D'INFORMATIONS
+=head1 VOIR AUSSI
 
-L<https://fr.wikipedia.org/wiki/Rectifications_orthographiques_du_fran%C3%A7ais_en_1990>
+L<https://fr.wikipedia.org/wiki/Rectifications_orthographiques_du_française_en_1990>
 
-=head1 L'AUTEUR
+=head1 AUTEUR
 
 Lee Johnson - C<leejo@cpan.org>
 
-=head1 LA LICENSE
+=head1 LICENCE
 
-Cette bibliothèque est un logiciel libre; vous pouvez le redistribuer et / ou
-le modifier selon les mêmes conditions que Perl lui-même. Si vous souhaitez
-contribuer documentation, fonctionnalités, des corrections de bugs, ou quelque
-chose d'autre, alors s'il vous plaît soulever une demande édition / de traction:
+Cette bibliothèque est un logiciel S<libre ;> vous pouvez la redistribuer et/ou
+la modifier selon les mêmes conditions que Perl lui-même. 
+
+Si vous souhaitez contribuer (documentation, fonctionnalités, corrections de 
+bugs, etc), merci de soumettre un I<pull request> ou de remplir un ticket à 
+l'adresse S<suivante :>
 
     https://github.com/leejo/acme-ognon
+
 
 =cut
 
