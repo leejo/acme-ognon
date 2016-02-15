@@ -67,7 +67,7 @@ Merci à l'Académie française, bien S<sûr !> Hein, bien S<sur !> Je pense...
 
 =head1 VOIR AUSSI
 
-L<https://fr.wikipedia.org/wiki/Rectifications_orthographiques_du_française_en_1990>
+L<https://fr.wikipedia.org/wiki/Rectifications_orthographiques_du_français_en_1990>
 
 =head1 AUTEUR
 
