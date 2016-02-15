@@ -29,7 +29,7 @@ Merci à l'Académie française, bien sûr ! Hein, bien sur ! Je pense...
 
 # VOIR AUSSI
 
-[https://fr.wikipedia.org/wiki/Rectifications\_orthographiques\_du\_française\_en\_1990](https://fr.wikipedia.org/wiki/Rectifications_orthographiques_du_française_en_1990)
+https://fr.wikipedia.org/wiki/Rectifications_orthographiques_du_français_en_1990
 
 # AUTEUR
 
