@@ -3,3 +3,4 @@ lib/Acme/Ognon.pm
 Makefile.PL
 MANIFEST
 README.md
+t/ognon.t

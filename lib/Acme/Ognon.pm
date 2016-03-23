@@ -4,17 +4,17 @@ package Acme::Ognon;
 
 =head1 NAME
 
-Acme::Ognon - Suivez l'Académie française à la lettre... peut-être
+Acme::Ognon - Suivez le Conseil supérieur de la langue française ... peut-être
 
 =head1 VERSION
 
-1990.4
+1990.5
 
 =head1 DESCRIPTION
 
-Acme::Ognon existe pour suivre l'Académie française à la lettre...
-peut-être. Le module supprime et ajoute, de temps en temps, des accents
-circonflexes sur les lettres S<« i »> et S<« u »>.
+Acme::Ognon existe pour suivre le Conseil supérieur de la langue française
+à la lettre... peut-être. Le module supprime et ajoute, de temps en temps,
+des accents circonflexes sur les lettres S<« i »> et S<« u »>.
 
 Le module a deux S<fonctions :> C<ognon> pour supprimer des accents 
 circonflexes et C<oignon> pour en ajouter. Gardez à l'esprit que ces 
@@ -37,7 +37,7 @@ use vars qw/ @ISA @EXPORT_OK @EXPORT /;
 @ISA       = qw/ Exporter /;
 @EXPORT    = qw/ ognon oignon /;
 
-$Acme::Ognon::VERSION = "1990.4";
+$Acme::Ognon::VERSION = "1990.5";
 
 sub ognon {
 	my ( $text ) = @_;
@@ -63,7 +63,8 @@ sub oignon {
 
 =head1 REMERCIEMENTS
 
-Merci à l'Académie française, bien S<sûr !> Hein, bien S<sur !> Je pense...
+Merci au Conseil supérieur de la langue française, bien S<sûr !> Hein,
+bien S<sur !> Je pense...
 
 =head1 VOIR AUSSI
 

@@ -1,5 +1,9 @@
 Revision history for Acme::Ognon
 
+1990.5 2016-03-23
+	- ajouter t/ dans le MANIFEST
+    - resolve #3 L'Académie française est opposée à la réforme !
+
 1990.4 2016-02-14
 	- corrections, merci ericguirbal
 
