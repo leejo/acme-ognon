@@ -15,8 +15,8 @@ WriteMakefile(
         resources => {
             license    => 'http://dev.perl.org/licenses/',
             homepage   => 'https://metacpan.org/module/Acme::Ognon',
-            bugtracker => 'https://github.com/G3S/acme-ognon/issues',
-            repository => 'https://github.com/G3S/acme-ognon'
+            bugtracker => 'https://github.com/leejo/acme-ognon/issues',
+            repository => 'https://github.com/leejo/acme-ognon'
         },
     },
     test => {
