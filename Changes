@@ -1,5 +1,8 @@
 Revision history for Acme::Ognon
 
+1990.7 2016-03-26
+    - replace use of Test::Most with Test::More
+
 1990.6 2016-03-25
     - fix Makefile.PL links
 

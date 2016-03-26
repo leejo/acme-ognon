@@ -4,7 +4,7 @@ use strict;
 use warnings;
 use feature qw/ say /;
 
-use Test::Most;
+use Test::More qw/ no_plan /;
 use Acme::Ognon qw/ oignon ognon /;
 
 my @oignons;
@@ -28,5 +28,3 @@ for ( 1 .. 1000 ) {
 my $added = grep { /coût/ } @oignons;
 
 ok( $added,'oignon' );
-
-done_testing();
