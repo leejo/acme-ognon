@@ -1,5 +1,8 @@
 Revision history for Acme::Ognon
 
+1990.8 2016-03-27
+    - remove use feature in test
+
 1990.7 2016-03-26
     - replace use of Test::Most with Test::More
 

@@ -4,7 +4,7 @@ Acme::Ognon - Suivez le Conseil supérieur de la langue française ... peut-êtr
 
 # VERSION
 
-1990.7
+1990.8
 
 # DESCRIPTION
 

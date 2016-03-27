@@ -2,7 +2,6 @@
 
 use strict;
 use warnings;
-use feature qw/ say /;
 
 use Test::More qw/ no_plan /;
 use Acme::Ognon qw/ oignon ognon /;
